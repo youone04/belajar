@@ -1,0 +1,8 @@
+.card-mod{
+    margin: 5px;
+    width: 120px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
