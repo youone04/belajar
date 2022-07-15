@@ -1,5 +1,5 @@
 export const counterPlus = (nilai)  => (dispatch) => {
-    dispatch({type: "COUNTER_PLUS" , value : [1,2,3]})
+    dispatch({type: "COUNTER_PLUS" , value : nilai})
 }
 
 

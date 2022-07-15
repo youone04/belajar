@@ -3,17 +3,10 @@ import { connect } from "react-redux";
 import Counter from "../Counter/Counter";
 
 function Home({ counter, data }) {
-  console.log(data)
-
  
   return (
     <>
       <div>Nilai {counter}</div>
-      {
-        data.map((d , i) => {
-          return <p key={i}>hello</p>
-        })
-      }
       <Counter />
     </>
   );

@@ -8,7 +8,7 @@ const reducer = (state = initialState , action) => {
     switch(action.type){
         case "COUNTER_PLUS":
             return{
-                counter : action.value
+                counter : state.counter + action.value
             }
         case "COUNTER_MINUS":
                 return{
